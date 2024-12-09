@@ -1,5 +1,3 @@
-import Data.List (nub)
-
 periodLength :: Int -> Int
 periodLength n
     | n `mod` 2 == 0 = periodLength (n `div` 2) 
